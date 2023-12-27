@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  // gap: 29px;
+
+  background-image: url("../../../../public/images/pattern-bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust the background size property */
+
+ z-index: 2;
+ 
+}
+.ip {
+  margin-top: 26px;
+  color: white;
+  font-size: 28px;
+  margin-top: 26px;
+  margin-bottom: 29px;
+}
+
+@media screen and (min-width: 768px) {
+  .main{
+    background-image: url("../../../../public/images/pattern-bg-desktop.png");
+    height: 280px;
+  }
+  .ip{
+    margin-top: 33px;
+    margin-bottom: 31px;
+  }
+}

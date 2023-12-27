@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* You might need to adjust the height to fit your layout */
+  }
+  
+ 
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  

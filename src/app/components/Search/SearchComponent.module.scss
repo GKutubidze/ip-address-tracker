@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+ 
+   
+  input {
+    font-size: 18px;;
+    width: 279px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    &:active,
+    &:focus {
+        outline: none; /* Remove default focus outline if desired */
+     }
+
+     color: #2C2C2C;
+   font-weight: 400;
+   }
+  input[type="text"] {
+    padding-left: 24px; /* Adjust the margin value according to your preference */
+  }
+  
+}
+.arrow{
+  margin-left: -10px;
+  width: auto;
+  height: 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .main{
+     input{
+      width: 555px;
+     }
+  }
+}
